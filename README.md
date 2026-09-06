@@ -55,7 +55,9 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 ## List of Past DeFi Incidents
 [20260901 ReflexerGEB](#20260901-reflexergeb---shared-gebproxyactions-library-registered-as-safe-owner)
+
 [20260822 SandboxOFT](#20260822-sandboxoft---layerzero-delegate-hijack-via-approveandcall)
+
 [20260809 USM](#20260809-usm---defund-price-split-invariance-rounding-exploit)
 
 [20260706 SummerFi](#20260706-summerfi---fleetcommander-nav-inflation-via-depegged-xusd)
