@@ -1767,7 +1767,6 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 ---
 ### List of DeFi Hacks & POCs
-<<<<<<< HEAD
 ### 20260905 DHC - repeatable claim due to missing claimed-flag
 ### Lost: ~$71.8K USDT
 ```sh
@@ -1776,15 +1775,6 @@ forge test --contracts src/test/2026-09/DHC_exp.sol -vvv
 #### Contract
 [DHC_exp.sol](src/test/2026-09/DHC_exp.sol)
 
-### 20260903 NotionalFinance - ERC1155 fCash mint overflow drains escrow
-### Lost: ~69,257.37 DAI + ~1,658,524.86 USDC (~$1.73M)
-```sh
-forge test --contracts src/test/2026-09/NotionalFinance_exp.sol -vvv
-```
-#### Contract
-[NotionalFinance_exp.sol](src/test/2026-09/NotionalFinance_exp.sol)
-=======
->>>>>>> upstream/main
 ### 20260901 ReflexerGEB - Shared GebProxyActions library registered as SAFE owner
 ### Lost: ~5.9436 ETH (~$14K, drained from 4 SAFEs in one tx: IDs 3, 5, 8, 18)
 ```sh
