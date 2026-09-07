@@ -3,7 +3,7 @@
 **Reproduce DeFi hack incidents using Foundry.**
 
 
-835 incidents included.
+836 incidents included.
 
 Let's make Web3 secure! Join [Discord](https://discord.gg/Fjyngakf3h)
 
@@ -54,6 +54,8 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 - [Giveth](https://giveth.io/donate/defihacklabs)
 
 ## List of Past DeFi Incidents
+[20260905 Reddio - cross-share-class balance double-count via permissionless registerErc20](#20260905-reddio---cross-share-class-balance-double-count-via-permissionless-registererc20)
+
 [20260901 ReflexerGEB](#20260901-reflexergeb---shared-gebproxyactions-library-registered-as-safe-owner)
 
 [20260822 SandboxOFT](#20260822-sandboxoft---layerzero-delegate-hijack-via-approveandcall)
@@ -1766,6 +1768,13 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 ---
 ### List of DeFi Hacks & POCs
+### 20260905 Reddio - cross-share-class balance double-count via permissionless registerErc20
+### Lost: ~9.25 ETH
+```sh
+forge test --contracts src/test/2026-09/Reddio_exp.sol -vvv
+```
+#### Contract
+[Reddio_exp.sol](src/test/2026-09/Reddio_exp.sol)
 ### 20260901 ReflexerGEB - Shared GebProxyActions library registered as SAFE owner
 ### Lost: ~5.9436 ETH (~$14K, drained from 4 SAFEs in one tx: IDs 3, 5, 8, 18)
 ```sh
