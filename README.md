@@ -55,6 +55,7 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 ## List of Past DeFi Incidents
 [20260905 Reddio - cross-share-class balance double-count via permissionless registerErc20](#20260905-reddio---cross-share-class-balance-double-count-via-permissionless-registererc20)
+
 [20260901 ReflexerGEB](#20260901-reflexergeb---shared-gebproxyactions-library-registered-as-safe-owner)
 
 [20260822 SandboxOFT](#20260822-sandboxoft---layerzero-delegate-hijack-via-approveandcall)
